@@ -1,0 +1,24 @@
+<templateSet group="user">
+  <template name="model-app" value="&lt;?php&#10;&#10;namespace App\Model;&#10;&#10;use Nails\Common\Model\Base;&#10;&#10;class $CLASS$ extends Base&#10;{&#10;    public function __construct()&#10;    {&#10;        parent::__construct();&#10;        $this-&gt;table       = APP_DB_PREFIX . '$TABLE$';&#10;        $this-&gt;tablePrefix = '$TABLE_ABREVIATION$';&#10;    }&#10;}&#10;" description="Create a Nails App model" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TABLE_ABREVIATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="model-nails" value="&lt;?php&#10;&#10;namespace Nails\$MODULE$\Model;&#10;&#10;use Nails\Common\Model\Base&#10;&#10;class $CLASS$ extends Base&#10;{&#10;    public function __construct()&#10;    {&#10;        parent::__construct();&#10;        $this-&gt;table       = NAILS_DB_PREFIX . '$TABLE$';&#10;        $this-&gt;tablePrefix = '$TABLE_ABREVIATION$';&#10;    }&#10;}&#10;" description="Create a new Nails model" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TABLE_ABREVIATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="--" value="// --------------------------------------------------------------------------" description="Comment divider" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
