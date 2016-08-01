@@ -25,15 +25,9 @@
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
-  <action id="EditorChooseLookupItem" />
   <action id="EditorDeleteLine" />
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
-  </action>
-  <action id="EditorEnter" />
-  <action id="EditorStartNewLine">
-    <keyboard-shortcut first-keystroke="shift enter" />
-    <keyboard-shortcut first-keystroke="enter" />
   </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta end" />
