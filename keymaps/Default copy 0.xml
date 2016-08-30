@@ -32,7 +32,6 @@
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
-  <action id="EditorChooseLookupItem" />
   <action id="EditorDeleteLine" />
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
