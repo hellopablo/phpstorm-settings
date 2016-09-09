@@ -4,12 +4,4 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="fuckyou" value="&lt;?php&#10;&#10;class $CLASS$ {&#10; $TABLE$&#10; &#10; $v$&#10;}" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASS" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
-    <variable name="TABLE" expression="lowercaseAndDash(String)" defaultValue="CLASS" alwaysStopAt="true" />
-    <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="HTML" value="true" />
-    </context>
-  </template>
 </templateSet>
