@@ -7,12 +7,18 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="nailsmodel" value="&lt;?php&#10;&#10;/**&#10; * This model handles interactions with the module's &quot;$TABLE$&quot; table.&#10; *&#10; * @package     Nails&#10; * @subpackage  module-$MODULE$&#10; * @category    model&#10; * @author      Nails Dev Team &lt;hello@nailsapp.co.uk&gt;&#10; */&#10;&#10;namespace Nails\$NAMESPACE$\Model;&#10;&#10;use Nails\Common\Model\Base;&#10;&#10;class $CLASS$ extends Base&#10;{&#10;    /**&#10;     * $CLASS$ constructor.&#10;     */&#10;    public function __construct()&#10;    {&#10;        parent::__construct();&#10;        $this-&gt;table = NAILS_DB_PREFIX . '$MODULE_PREFIX$_$TABLE$';&#10;    }&#10;}" description="Create a new Nails model." toReformat="false" toShortenFQNames="true">
+  <template name="model-nails" value="&lt;?php&#10;&#10;/**&#10; * This model handles interactions with the module's &quot;$TABLE$&quot; table.&#10; *&#10; * @package     Nails&#10; * @subpackage  module-$MODULE$&#10; * @category    model&#10; * @author      Nails Dev Team &lt;hello@nailsapp.co.uk&gt;&#10; */&#10;&#10;namespace Nails\$NAMESPACE$\Model;&#10;&#10;use Nails\Common\Model\Base;&#10;&#10;class $CLASS$ extends Base&#10;{&#10;    /**&#10;     * $CLASS$ constructor.&#10;     */&#10;    public function __construct()&#10;    {&#10;        parent::__construct();&#10;        $this-&gt;table = NAILS_DB_PREFIX . '$MODULE_PREFIX$_$TABLE$';&#10;    }&#10;}" description="Create a new Nails model." toReformat="false" toShortenFQNames="true">
     <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAMESPACE" expression="" defaultValue="capitalize(camelCase(MODULE))" alwaysStopAt="false" />
     <variable name="CLASS" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
     <variable name="TABLE" expression="" defaultValue="snakeCase(CLASS)" alwaysStopAt="false" />
     <variable name="MODULE_PREFIX" expression="" defaultValue="snakeCase(MODULE)" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="controller-cron" value="&lt;?php&#10;&#10;namespace Nails\Cron\App;&#10;&#10;use Nails\Cron\Controller\Base;&#10;&#10;class $CLASS$ extends Base&#10;{&#10;    public function index()&#10;    {&#10;        $END$&#10;    }&#10;}&#10;" description="Generates a blank cron controller." toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="capitalize(fileNameWithoutExtension())" alwaysStopAt="false" />
     <context>
       <option name="HTML" value="true" />
     </context>

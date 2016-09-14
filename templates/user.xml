@@ -4,4 +4,24 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="$oSession" value="$oSession = Factory::service('Session', 'nailsapp/module-auth');" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="$oUserModel" value="$oUserModel = Factory::service('User', 'nailsapp/module-auth');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="$oNow" value="$oNow = Factory::factory('DateTime');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="$oEmailer" value="$oEmailer = Factory::service('Emailer', 'nailsapp/module-email');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
