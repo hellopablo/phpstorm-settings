@@ -9,7 +9,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="$oUserModel" value="$oUserModel = Factory::service('User', 'nailsapp/module-auth');" toReformat="false" toShortenFQNames="true">
+  <template name="$oUserModel" value="$oUserModel = Factory::model('User', 'nailsapp/module-auth');" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
