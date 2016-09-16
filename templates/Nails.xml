@@ -40,4 +40,11 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="controller-admin" value="&lt;?php&#10;&#10;namespace App\Admin\App;&#10;&#10;use Nails\Admin\Controller\DefaultController;&#10;&#10;class $CLASS$ extends DefaultController&#10;{&#10;    const CONFIG_MODEL_NAME        = '$CLASS$';&#10;    const CONFIG_MODEL_PROVIDER    = 'app';&#10;    const CONFIG_TITLE_SINGLE      = '$CLASS$';&#10;    const CONFIG_TITLE_PLURAL      = '$CLASS$s';&#10;    const CONFIG_SIDEBAR_GROUP     = '$CLASS$s';&#10;    const CONFIG_PERMISSION_STRING = 'app:$CLASS_LOWER$';&#10;    const CONFIG_BASE_URL          = 'app/$CLASS_LOWER$';&#10;    const CONFIG_SORT_OPTIONS      = '{&quot;label&quot;:&quot;Label&quot;, &quot;modified&quot;:&quot;modified&quot;}';&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="capitalize(camelCase(fileNameWithoutExtension()))" alwaysStopAt="false" />
+    <variable name="CLASS_LOWER" expression="" defaultValue="lowercaseAndDash(snakeCase(CLASS))" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
