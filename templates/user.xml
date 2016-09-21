@@ -56,4 +56,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="new-js" value="var $CLASS$;&#10;$CLASS$ = function()&#10;{&#10;    /**&#10;     * Avoid scope issues in callbacks and anonymous functions by referring to `this` as `base`&#10;     * @type {object}&#10;     */&#10;    var base = this;&#10;&#10;    // --------------------------------------------------------------------------&#10;&#10;    /**&#10;     * Construct the class&#10;     * @return {object}&#10;     */&#10;    base.__construct = function() {&#10;        return base;&#10;    };&#10;&#10;    // --------------------------------------------------------------------------&#10;&#10;    return base.__construct();&#10;}();&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
