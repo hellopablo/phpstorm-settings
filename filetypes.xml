@@ -5,6 +5,7 @@
       <mapping pattern="" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="email/views/shortlist.php" type="PLAIN_TEXT" />
+      <mapping pattern="359d7b1a78368d346898fcf5238bea26f6982e76" type="PLAIN_TEXT" />
       <mapping ext="gitkeep" type="PLAIN_TEXT" />
       <mapping ext="j" type="PLAIN_TEXT" />
     </extensionMap>
