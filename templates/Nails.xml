@@ -23,6 +23,12 @@
     <variable name="CLASS" expression="" defaultValue="capitalize(fileNameWithoutExtension())" alwaysStopAt="false" />
     <context>
       <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP Class Member" value="false" />
     </context>
   </template>
   <template name="expandable-single" value="$this-&gt;addExpandableField(&#10;    array(&#10;        'trigger'     =&gt; '$TRIGGER$',&#10;        'type'        =&gt; self::EXPANDABLE_TYPE_SINGLE,&#10;        'property'    =&gt; '$TRIGGER$',&#10;        'model'       =&gt; '$MODEL$',&#10;        'provider'    =&gt; '$PROVIDER$',&#10;        'id_column'   =&gt; '$TRIGGER$_id'&#10;    )&#10;);" toReformat="false" toShortenFQNames="true">
@@ -46,6 +52,12 @@
     <variable name="CLASS" expression="" defaultValue="capitalize(camelCase(fileNameWithoutExtension()))" alwaysStopAt="false" />
     <context>
       <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP Class Member" value="false" />
     </context>
   </template>
   <template name="controller-api" value="&lt;?php&#10;&#10;namespace Nails\Api\App;&#10;&#10;use Nails\Api\Controller\DefaultController;&#10;&#10;class $CLASS$ extends DefaultController&#10;{&#10;    const CONFIG_MODEL_NAME     = '$MODEL_NAME$';&#10;    const CONFIG_MODEL_PROVIDER = '$MODEL_PROVIDER$';&#10;}&#10;" toReformat="false" toShortenFQNames="true">
@@ -54,6 +66,12 @@
     <variable name="MODEL_PROVIDER" expression="" defaultValue="&quot;app&quot;" alwaysStopAt="false" />
     <context>
       <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP Class Member" value="false" />
     </context>
   </template>
 </templateSet>
