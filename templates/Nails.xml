@@ -74,4 +74,17 @@
       <option name="PHP Class Member" value="false" />
     </context>
   </template>
+  <template name="migration" value="&lt;?php&#10;&#10;/**&#10; * Migration:   $MIGRATION_NUMBER$&#10; * Started:     $DATE$&#10; * Finalised:&#10; */&#10;&#10;namespace Nails\Database\Migration\App;&#10;&#10;use Nails\Common\Console\Migrate\Base;&#10;&#10;class Migration$MIGRATION_NUMBER$ extends Base&#10;{&#10;    /**&#10;     * Execute the migration&#10;     * @return Void&#10;     */&#10;    public function execute()&#10;    {&#10;    }&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="MIGRATION_NUMBER" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP Class Member" value="false" />
+    </context>
+  </template>
 </templateSet>
