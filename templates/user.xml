@@ -77,4 +77,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="$oCdn" value="$oCdn = Factory::service('Cdn', 'nailsapp/module-cdn');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+    </context>
+  </template>
 </templateSet>
