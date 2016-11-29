@@ -1,0 +1,90 @@
+<templateSet group="Nails">
+  <template name="model" value="&lt;?php&#10;&#10;/**&#10; * This model handles interactions with the app's &quot;$TABLE$&quot; table.&#10; *&#10; * @package  App&#10; * @author   Shed Collective &lt;hello@shedcollective.org&gt;&#10; * @category model&#10; */&#10;&#10;namespace $NAMESPACE$;&#10;&#10;use Nails\Common\Model\Base;&#10;&#10;class $CLASS$ extends Base&#10;{&#10;    /**&#10;     * $CLASS$ constructor.&#10;     */&#10;    public function __construct()&#10;    {&#10;        parent::__construct();&#10;        $this-&gt;table = APP_DB_PREFIX . '$TABLE$';&#10;    }&#10;}&#10;" description="Create a new Nails app model." toReformat="false" toShortenFQNames="true">
+    <variable name="NAMESPACE" expression="" defaultValue="&quot;App\\Model&quot;" alwaysStopAt="false" />
+    <variable name="CLASS" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="TABLE" expression="" defaultValue="snakeCase(CLASS)" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="model-nails" value="&lt;?php&#10;&#10;/**&#10; * This model handles interactions with the module's &quot;$TABLE$&quot; table.&#10; *&#10; * @package     Nails&#10; * @subpackage  module-$MODULE$&#10; * @category    model&#10; * @author      Nails Dev Team &lt;hello@nailsapp.co.uk&gt;&#10; */&#10;&#10;namespace Nails\$NAMESPACE$\Model;&#10;&#10;use Nails\Common\Model\Base;&#10;&#10;class $CLASS$ extends Base&#10;{&#10;    /**&#10;     * $CLASS$ constructor.&#10;     */&#10;    public function __construct()&#10;    {&#10;        parent::__construct();&#10;        $this-&gt;table = NAILS_DB_PREFIX . '$MODULE_PREFIX$_$TABLE$';&#10;    }&#10;}" description="Create a new Nails model." toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAMESPACE" expression="" defaultValue="capitalize(camelCase(MODULE))" alwaysStopAt="false" />
+    <variable name="CLASS" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="TABLE" expression="" defaultValue="snakeCase(CLASS)" alwaysStopAt="false" />
+    <variable name="MODULE_PREFIX" expression="" defaultValue="snakeCase(MODULE)" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="controller-cron" value="&lt;?php&#10;&#10;namespace Nails\Cron\App;&#10;&#10;use Nails\Cron\Controller\Base;&#10;&#10;class $CLASS$ extends Base&#10;{&#10;    public function index()&#10;    {&#10;        $END$&#10;    }&#10;}&#10;" description="Generates a blank cron controller." toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="capitalize(fileNameWithoutExtension())" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP Class Member" value="false" />
+    </context>
+  </template>
+  <template name="expandable-single" value="$this-&gt;addExpandableField(&#10;    array(&#10;        'trigger'     =&gt; '$TRIGGER$',&#10;        'type'        =&gt; self::EXPANDABLE_TYPE_SINGLE,&#10;        'property'    =&gt; '$TRIGGER$',&#10;        'model'       =&gt; '$MODEL$',&#10;        'provider'    =&gt; '$PROVIDER$',&#10;        'id_column'   =&gt; '$TRIGGER$_id'&#10;    )&#10;);" toReformat="false" toShortenFQNames="true">
+    <variable name="TRIGGER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODEL" expression="" defaultValue="capitalize(camelCase(TRIGGER))" alwaysStopAt="false" />
+    <variable name="PROVIDER" expression="" defaultValue="&quot;app&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="expandable-many" value="$this-&gt;addExpandableField(&#10;    array(&#10;        'trigger'     =&gt; '$TRIGGER$',&#10;        'type'        =&gt; self::EXPANDABLE_TYPE_MANY,&#10;        'property'    =&gt; '$TRIGGER$',&#10;        'model'       =&gt; '$MODEL$',&#10;        'provider'    =&gt; '$PROVIDER$',&#10;        'id_column'   =&gt; '$CLASS$_id',&#10;    )&#10;);" toReformat="false" toShortenFQNames="true">
+    <variable name="TRIGGER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODEL" expression="" defaultValue="capitalize(camelCase(TRIGGER))" alwaysStopAt="false" />
+    <variable name="CLASS" expression="" defaultValue="lowercaseAndDash(fileNameWithoutExtension())" alwaysStopAt="false" />
+    <variable name="PROVIDER" expression="" defaultValue="&quot;app&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="controller-admin" value="&lt;?php&#10;&#10;namespace App\Admin\App;&#10;&#10;use Nails\Admin\Controller\DefaultController;&#10;&#10;class $CLASS$ extends DefaultController&#10;{&#10;    const CONFIG_MODEL_NAME     = '$CLASS$';&#10;    const CONFIG_MODEL_PROVIDER = 'app';&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="capitalize(camelCase(fileNameWithoutExtension()))" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP Class Member" value="false" />
+    </context>
+  </template>
+  <template name="controller-api" value="&lt;?php&#10;&#10;namespace Nails\Api\App;&#10;&#10;use Nails\Api\Controller\DefaultController;&#10;&#10;class $CLASS$ extends DefaultController&#10;{&#10;    const CONFIG_MODEL_NAME     = '$MODEL_NAME$';&#10;    const CONFIG_MODEL_PROVIDER = '$MODEL_PROVIDER$';&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="capitalize(fileNameWithoutExtension())" alwaysStopAt="false" />
+    <variable name="MODEL_NAME" expression="" defaultValue="CLASS" alwaysStopAt="false" />
+    <variable name="MODEL_PROVIDER" expression="" defaultValue="&quot;app&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP Class Member" value="false" />
+    </context>
+  </template>
+  <template name="migration" value="&lt;?php&#10;&#10;/**&#10; * Migration:   $MIGRATION_NUMBER$&#10; * Started:     $DATE$&#10; * Finalised:&#10; */&#10;&#10;namespace Nails\Database\Migration\App;&#10;&#10;use Nails\Common\Console\Migrate\Base;&#10;&#10;class Migration$MIGRATION_NUMBER$ extends Base&#10;{&#10;    /**&#10;     * Execute the migration&#10;     * @return Void&#10;     */&#10;    public function execute()&#10;    {&#10;    }&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="MIGRATION_NUMBER" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP Class Member" value="false" />
+    </context>
+  </template>
+</templateSet>
