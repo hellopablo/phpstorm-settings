@@ -55,9 +55,13 @@
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoSymbol" />
   <action id="Images.Thumbnails.EnterAction" />
   <action id="Jdbc.OpenTableEditor">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="meta alt o" />
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
