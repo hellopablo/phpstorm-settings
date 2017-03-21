@@ -31,7 +31,7 @@
       <option name="PHP Class Member" value="false" />
     </context>
   </template>
-  <template name="expand_single" value="$this-&gt;addExpandableField(&#10;    [&#10;        'trigger'   =&gt; '$TRIGGER$',&#10;        'type'      =&gt; self::EXPANDABLE_TYPE_SINGLE,&#10;        'property'  =&gt; '$TRIGGER$',&#10;        'model'     =&gt; '$MODEL$',&#10;        'provider'  =&gt; '$PROVIDER$',&#10;        'id_column' =&gt; '$TRIGGER$_id',&#10;    ]&#10;);" description="Generates an expandable block for a single item." toReformat="false" toShortenFQNames="true">
+  <template name="expand_single" value="$this-&gt;addExpandableField([&#10;    'trigger'   =&gt; '$TRIGGER$',&#10;    'type'      =&gt; self::EXPANDABLE_TYPE_SINGLE,&#10;    'property'  =&gt; '$TRIGGER$',&#10;    'model'     =&gt; '$MODEL$',&#10;    'provider'  =&gt; '$PROVIDER$',&#10;    'id_column' =&gt; '$TRIGGER$_id',&#10;]);" description="Generates an expandable block for a single item." toReformat="false" toShortenFQNames="true">
     <variable name="TRIGGER" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="MODEL" expression="" defaultValue="capitalize(camelCase(TRIGGER))" alwaysStopAt="false" />
     <variable name="PROVIDER" expression="" defaultValue="&quot;app&quot;" alwaysStopAt="false" />
@@ -39,7 +39,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="expand_many" value="$this-&gt;addExpandableField(&#10;    [&#10;        'trigger'   =&gt; '$TRIGGER$',&#10;        'type'      =&gt; self::EXPANDABLE_TYPE_MANY,&#10;        'property'  =&gt; '$TRIGGER$',&#10;        'model'     =&gt; '$MODEL$',&#10;        'provider'  =&gt; '$PROVIDER$',&#10;        'id_column' =&gt; '$CLASS$_id',&#10;    ]&#10;);" description="Generates an expandable block for multiple items." toReformat="false" toShortenFQNames="true">
+  <template name="expand_many" value="$this-&gt;addExpandableField([&#10;    'trigger'   =&gt; '$TRIGGER$',&#10;    'type'      =&gt; self::EXPANDABLE_TYPE_MANY,&#10;    'property'  =&gt; '$TRIGGER$',&#10;    'model'     =&gt; '$MODEL$',&#10;    'provider'  =&gt; '$PROVIDER$',&#10;    'id_column' =&gt; '$CLASS$_id',&#10;]);" description="Generates an expandable block for multiple items." toReformat="false" toShortenFQNames="true">
     <variable name="TRIGGER" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="MODEL" expression="" defaultValue="capitalize(camelCase(TRIGGER))" alwaysStopAt="false" />
     <variable name="CLASS" expression="" defaultValue="lowercaseAndDash(fileNameWithoutExtension())" alwaysStopAt="false" />
