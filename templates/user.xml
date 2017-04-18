@@ -9,61 +9,61 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="$oUserModel" value="$oUserModel = Factory::model('User', 'nailsapp/module-auth');" toReformat="false" toShortenFQNames="true">
+  <template name="$oUserModel" value="$oUserModel = Factory::model('User', 'nailsapp/module-auth');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="$oNow" value="$oNow = Factory::factory('DateTime');" toReformat="false" toShortenFQNames="true">
+  <template name="$oNow" value="$oNow = Factory::factory('DateTime');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="$oEmailer" value="$oEmailer = Factory::service('Emailer', 'nailsapp/module-email');" toReformat="false" toShortenFQNames="true">
+  <template name="$oEmailer" value="$oEmailer = Factory::service('Emailer', 'nailsapp/module-email');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="$oDb" value="$oDb = Factory::service('Database');" toReformat="false" toShortenFQNames="true">
+  <template name="$oDb" value="$oDb = Factory::service('Database');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="$oAsset" value="$oAsset = Factory::service('Asset');" toReformat="false" toShortenFQNames="true">
+  <template name="$oAsset" value="$oAsset = Factory::service('Asset');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Class Member" value="false" />
     </context>
   </template>
-  <template name="$oInput" value="$oInput = Factory::service('Input');" toReformat="false" toShortenFQNames="true">
+  <template name="$oInput" value="$oInput = Factory::service('Input');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="$oOutput" value="$oOutput = Factory::service('Output');" toReformat="false" toShortenFQNames="true">
+  <template name="$oOutput" value="$oOutput = Factory::service('Output');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="$oUri" value="$oUri = Factory::service('Uri');" toReformat="false" toShortenFQNames="true">
+  <template name="$oUri" value="$oUri = Factory::service('Uri');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="base." value="base.$FUNCTION$ = function($ARGUMENTS$) {&#10;    $END$&#10;};" toReformat="false" toShortenFQNames="true">
+  <template name="base." value="base.$FUNCTION$ = function($ARGUMENTS$) {&#10;    $END$&#10;};" description="" toReformat="false" toShortenFQNames="true">
     <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGUMENTS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="new-js" value="var $CLASS$;&#10;$CLASS$ = function()&#10;{&#10;    /**&#10;     * Avoid scope issues in callbacks and anonymous functions by referring to `this` as `base`&#10;     * @type {object}&#10;     */&#10;    var base = this;&#10;&#10;    // --------------------------------------------------------------------------&#10;&#10;    /**&#10;     * Construct the class&#10;     * @return {object}&#10;     */&#10;    base.__construct = function() {&#10;        return base;&#10;    };&#10;&#10;    // --------------------------------------------------------------------------&#10;&#10;    return base.__construct();&#10;}();&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="new-js" value="var $CLASS$;&#10;$CLASS$ = function()&#10;{&#10;    /**&#10;     * Avoid scope issues in callbacks and anonymous functions by referring to `this` as `base`&#10;     * @type {object}&#10;     */&#10;    var base = this;&#10;&#10;    // --------------------------------------------------------------------------&#10;&#10;    /**&#10;     * Construct the class&#10;     * @return {object}&#10;     */&#10;    base.__construct = function() {&#10;        return base;&#10;    };&#10;&#10;    // --------------------------------------------------------------------------&#10;&#10;    return base.__construct();&#10;}();&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="$oFormValidation" value="$oFormValidation = Factory::service('FormValidation');" toReformat="false" toShortenFQNames="true">
+  <template name="$oFormValidation" value="$oFormValidation = Factory::service('FormValidation');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
@@ -78,13 +78,13 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="$oCdn" value="$oCdn = Factory::service('Cdn', 'nailsapp/module-cdn');" toReformat="false" toShortenFQNames="true">
+  <template name="$oCdn" value="$oCdn = Factory::service('Cdn', 'nailsapp/module-cdn');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Class Member" value="false" />
     </context>
   </template>
-  <template name="$oEncrypt" value="$oEncrypt = Factory::service('Encrypt');" toReformat="false" toShortenFQNames="true">
+  <template name="$oEncrypt" value="$oEncrypt = Factory::service('Encrypt');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>

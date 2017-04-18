@@ -24,11 +24,11 @@
     <context>
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
       <option name="PHP Comment" value="false" />
-      <option name="PHP String Literal" value="false" />
       <option name="PHP Expression" value="false" />
       <option name="PHP Statement" value="false" />
-      <option name="PHP Class Member" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="expand_single" value="$this-&gt;addExpandableField([&#10;    'trigger'   =&gt; '$TRIGGER$',&#10;    'type'      =&gt; self::EXPANDABLE_TYPE_SINGLE,&#10;    'property'  =&gt; '$TRIGGER$',&#10;    'model'     =&gt; '$MODEL$',&#10;    'provider'  =&gt; '$PROVIDER$',&#10;    'id_column' =&gt; '$TRIGGER$_id',&#10;]);" description="Generates an expandable block for a single item." toReformat="false" toShortenFQNames="true">
@@ -53,11 +53,11 @@
     <context>
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
       <option name="PHP Comment" value="false" />
-      <option name="PHP String Literal" value="false" />
       <option name="PHP Expression" value="false" />
       <option name="PHP Statement" value="false" />
-      <option name="PHP Class Member" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="controller_api" value="&lt;?php&#10;&#10;namespace Nails\Api\App;&#10;&#10;use Nails\Api\Controller\DefaultController;&#10;&#10;class $CLASS$ extends DefaultController&#10;{&#10;    const CONFIG_MODEL_NAME     = '$MODEL_NAME$';&#10;    const CONFIG_MODEL_PROVIDER = '$MODEL_PROVIDER$';&#10;}&#10;" description="Generates a blank API controller." toReformat="false" toShortenFQNames="true">
@@ -67,11 +67,11 @@
     <context>
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
       <option name="PHP Comment" value="false" />
-      <option name="PHP String Literal" value="false" />
       <option name="PHP Expression" value="false" />
       <option name="PHP Statement" value="false" />
-      <option name="PHP Class Member" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="migration" value="&lt;?php&#10;&#10;/**&#10; * Migration:   $MIGRATION_NUMBER$&#10; * Started:     $DATE$&#10; * Finalised:&#10; */&#10;&#10;namespace Nails\Database\Migration\App;&#10;&#10;use Nails\Common\Console\Migrate\Base;&#10;&#10;class Migration$MIGRATION_NUMBER$ extends Base&#10;{&#10;    /**&#10;     * Execute the migration&#10;     * @return void&#10;     */&#10;    public function execute()&#10;    {&#10;    }&#10;}&#10;" description="Generates a blank cronDB migration." toReformat="false" toShortenFQNames="true">
@@ -80,11 +80,11 @@
     <context>
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
       <option name="PHP Comment" value="false" />
-      <option name="PHP String Literal" value="false" />
       <option name="PHP Expression" value="false" />
       <option name="PHP Statement" value="false" />
-      <option name="PHP Class Member" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
 </templateSet>
