@@ -12,6 +12,18 @@
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
   </JSCodeStyleSettings>
+  <PHPCodeStyleSettings>
+    <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
+    <option name="ALIGN_PHPDOC_PARAM_NAMES" value="true" />
+    <option name="ALIGN_PHPDOC_COMMENTS" value="true" />
+    <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true" />
+    <option name="PHPDOC_BLANK_LINES_AROUND_PARAMETERS" value="true" />
+    <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
+    <option name="LOWER_CASE_NULL_CONST" value="true" />
+    <option name="ELSE_IF_STYLE" value="COMBINE" />
+    <option name="SPACES_WITHIN_SHORT_ECHO_TAGS" value="false" />
+    <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
+  </PHPCodeStyleSettings>
   <codeStyleSettings language="JSON">
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
@@ -20,6 +32,13 @@
   <codeStyleSettings language="JavaScript">
     <option name="LINE_COMMENT_ADD_SPACE" value="false" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+  </codeStyleSettings>
+  <codeStyleSettings language="PHP">
+    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="0" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
+    <option name="BLANK_LINES_AFTER_PACKAGE" value="1" />
+    <option name="SPACE_WITHIN_FOR_PARENTHESES" value="true" />
   </codeStyleSettings>
   <codeStyleSettings language="SCSS">
     <indentOptions>
