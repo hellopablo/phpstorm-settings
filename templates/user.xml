@@ -29,7 +29,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="$oAsset" value="$oAsset = Factory::service('Asset');" description="" toReformat="false" toShortenFQNames="true">
+  <template name="$oAsset" value="$oAsset = Factory::service('Asset');" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Class Member" value="false" />
@@ -87,6 +87,13 @@
   <template name="$oEncrypt" value="$oEncrypt = Factory::service('Encrypt');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="expand" value="'expand' =&gt; ['$ITEM$']" toReformat="false" toShortenFQNames="true">
+    <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
     </context>
   </template>
 </templateSet>
