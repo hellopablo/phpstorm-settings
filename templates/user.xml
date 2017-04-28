@@ -29,7 +29,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="$oAsset" value="$oAsset = Factory::service('Asset');" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="$oAsset" value="$oAsset = Factory::service('Asset');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Class Member" value="false" />
