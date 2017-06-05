@@ -98,7 +98,7 @@
   </template>
   <template name="todo" value="//  @todo ($NAME$ - $DATE$) - " description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="capitalize(user())" defaultValue="" alwaysStopAt="false" />
-    <variable name="DATE" expression="date(&quot;yyyy-mm-dd&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="PHP" value="true" />
