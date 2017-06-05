@@ -64,8 +64,12 @@
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
   <action id="GotoSymbol" />
   <action id="Images.Thumbnails.EnterAction" />
+  <action id="IntroduceField" />
   <action id="Jdbc.OpenTableEditor">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -82,9 +86,14 @@
   </action>
   <action id="ParameterInfo" />
   <action id="QuickChangeScheme" />
+  <action id="Refresh" />
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="meta alt f" />
+  </action>
+  <action id="Rerun" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
   <action id="SearchEverywhere">
