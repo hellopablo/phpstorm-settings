@@ -105,7 +105,7 @@
       <option name="PHP Comment" value="false" />
     </context>
   </template>
-  <template name="$oEmail" value="$oEmail = (object) [&#10;    'type'  =&gt; '$TYPE$',&#10;    'to_id' =&gt; $USER_ID$,&#10;    'data'  =&gt; [&#10;        '' =&gt; '',&#10;    ],&#10;];" toReformat="false" toShortenFQNames="true">
+  <template name="$oEmail" value="$oEmail = (object) [&#10;    'type'  =&gt; '$TYPE$',&#10;    'to_id' =&gt; $USER_ID$,&#10;    'data'  =&gt; [&#10;        '' =&gt; '',&#10;    ],&#10;];" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="USER_ID" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

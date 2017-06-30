@@ -31,6 +31,9 @@
       <mask>*</mask>
       <mask>*.</mask>
       <mask>*.PHP</mask>
+      <mask>.php</mask>
+      <mask>e.php</mask>
+      <mask>editor.php</mask>
       <mask>*.php</mask>
     </recentFileMasks>
   </component>
