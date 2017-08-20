@@ -17,6 +17,7 @@
   </JSCodeStyleSettings>
   <MarkdownNavigatorCodeStyleSettings>
     <option name="WRAP_ON_TYPING" value="1" />
+    <option name="DISABLE_WRAP_IN_SOFT_WRAP" value="false" />
     <option name="SMART_EDIT_TABLES" value="true" />
     <option name="RIGHT_MARGIN" value="120" />
   </MarkdownNavigatorCodeStyleSettings>
