@@ -1,4 +1,5 @@
 <code_scheme name="Default">
+  <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
   <option name="HTML_ATTRIBUTE_WRAP" value="0" />
   <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
   <option name="HTML_ENFORCE_QUOTES" value="true" />
@@ -14,6 +15,11 @@
     <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
     <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
   </JSCodeStyleSettings>
+  <MarkdownNavigatorCodeStyleSettings>
+    <option name="WRAP_ON_TYPING" value="1" />
+    <option name="SMART_EDIT_TABLES" value="true" />
+    <option name="RIGHT_MARGIN" value="120" />
+  </MarkdownNavigatorCodeStyleSettings>
   <PHPCodeStyleSettings>
     <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
     <option name="ALIGN_PHPDOC_PARAM_NAMES" value="true" />

@@ -15,21 +15,23 @@
       <mask>*.css</mask>
       <mask>*.mxml</mask>
       <mask>scss</mask>
-      <mask>js</mask>
       <mask>php</mask>
       <mask>*php</mask>
-      <mask>*.js</mask>
-      <mask>*.j</mask>
       <mask>*.s</mask>
       <mask>*.sc</mask>
       <mask>*.scs</mask>
       <mask>*.scss</mask>
       <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.PHP</mask>
       <mask>.php</mask>
       <mask>e.php</mask>
       <mask>editor.php</mask>
+      <mask>js</mask>
+      <mask>*js</mask>
+      <mask>*.js</mask>
+      <mask>*.j</mask>
+      <mask>*.</mask>
+      <mask>*.p</mask>
       <mask>*.php</mask>
     </recentFileMasks>
   </component>
