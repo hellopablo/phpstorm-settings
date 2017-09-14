@@ -87,7 +87,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="form_field_dropdown_multiple" value="echo form_field_dropdown_multiple([&#10;    'key'     =&gt; '$KEY$',&#10;    'label'   =&gt; '$LABEL$',&#10;    'options' =&gt; $OPTIONS$,&#10;    'default' =&gt; $DEFAULT$,&#10;]);" toReformat="true" toShortenFQNames="true">
+  <template name="form_field_dropdown_multiple" value="echo form_field_dropdown_multiple([&#10;    'key'     =&gt; '$KEY$',&#10;    'label'   =&gt; '$LABEL$',&#10;    'options' =&gt; $OPTIONS$,&#10;    'default' =&gt; $DEFAULT$,&#10;]);" description="" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="OPTIONS" expression="" defaultValue="" alwaysStopAt="true" />
@@ -96,7 +96,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="form_field" value="echo form_field([&#10;    'key'     =&gt; '$KEY$',&#10;    'label'   =&gt; '$LABEL$',&#10;    'default' =&gt; $DEFAULT$,&#10;]);" toReformat="true" toShortenFQNames="true">
+  <template name="form_field" value="echo form_field([&#10;    'key'     =&gt; '$KEY$',&#10;    'label'   =&gt; '$LABEL$',&#10;    'default' =&gt; $DEFAULT$,&#10;]);" description="" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
