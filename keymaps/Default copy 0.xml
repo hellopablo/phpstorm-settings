@@ -76,6 +76,7 @@
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="meta alt o" />
   </action>
+  <action id="Move" />
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
   <action id="MoveTabRight">
@@ -89,6 +90,9 @@
   <action id="Refresh" />
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta alt f" />
