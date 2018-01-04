@@ -29,13 +29,13 @@
       <mask>*.php cod</mask>
       <mask>*.php co</mask>
       <mask>*.php c</mask>
-      <mask>*.php</mask>
       <mask>*.ph</mask>
       <mask>*.s</mask>
       <mask>*.sc</mask>
       <mask>*.scss</mask>
       <mask>*.</mask>
       <mask>*.p</mask>
+      <mask>*.php</mask>
       <mask>*.php</mask>
     </recentFileMasks>
   </component>
