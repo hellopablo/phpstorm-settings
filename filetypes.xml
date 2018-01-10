@@ -2,14 +2,15 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
+      <mapping pattern="" type="PLAIN_TEXT" />
+      <mapping pattern="kibana/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="359d7b1a78368d346898fcf5238bea26f6982e76" type="PLAIN_TEXT" />
       <mapping pattern=".metadata_never_index" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="098623f25b08a23d16ca3f38639c063fe537fc8c" type="PLAIN_TEXT" />
-      <mapping pattern="0cfcb24ca19f29ac7d46d8f195095dec098517f1" type="PLAIN_TEXT" />
       <mapping pattern="email/views/shortlist.php" type="PLAIN_TEXT" />
       <mapping pattern=".esconfig.environment" type="PLAIN_TEXT" />
-      <mapping pattern="" type="PLAIN_TEXT" />
+      <mapping pattern="0cfcb24ca19f29ac7d46d8f195095dec098517f1" type="PLAIN_TEXT" />
       <mapping ext="default" type="PLAIN_TEXT" />
       <mapping ext="gitkeep" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
