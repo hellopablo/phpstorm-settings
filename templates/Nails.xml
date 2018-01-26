@@ -104,7 +104,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="describe" value="public function describeFields()&#10;{&#10;    $aData = parent::describeFields();&#10;&#10;    $aData['label']-&gt;validation[] = 'required';&#10;&#10;    return $aData;&#10;}" description="Renders the describeFields() method" toReformat="true" toShortenFQNames="true">
+  <template name="describe" value="public function describeFields()&#10;{&#10;    $aFields = parent::describeFields();&#10;&#10;    $aFields['label']-&gt;validation[] = 'required';&#10;&#10;    return $aFields;&#10;}" description="Renders the describeFields() method" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
