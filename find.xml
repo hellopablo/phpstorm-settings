@@ -7,11 +7,8 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="dropped.js" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
-      <mask>php</mask>
-      <mask>*php</mask>
-      <mask>*.php code</mask>
       <mask>*.php cod</mask>
       <mask>*.php co</mask>
       <mask>*.php c</mask>
@@ -20,7 +17,6 @@
       <mask>*.scs</mask>
       <mask>*.sc</mask>
       <mask>*.s</mask>
-      <mask>*.p</mask>
       <mask>.php</mask>
       <mask>e.php</mask>
       <mask>ed.php</mask>
@@ -29,16 +25,20 @@
       <mask>editor.php</mask>
       <mask>js</mask>
       <mask>*js</mask>
-      <mask>*.js</mask>
       <mask>*.j</mask>
-      <mask>*.</mask>
-      <mask>*.php</mask>
-      <mask>*.php</mask>
       <mask>d</mask>
       <mask>dro</mask>
       <mask>droppe</mask>
       <mask>dropped.</mask>
       <mask>dropped.js</mask>
+      <mask>*.js</mask>
+      <mask>*,.js</mask>
+      <mask>*,</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.p</mask>
+      <mask>*.php</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
