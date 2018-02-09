@@ -1,7 +1,11 @@
-<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+<keymap version="1" name="Pablo" parent="Mac OS X 10.5+">
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <mouse-shortcut keystroke="button4" />
   </action>
   <action id="Console.Execute" />
   <action id="Console.TableResult.DeleteRows" />
@@ -46,9 +50,17 @@
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
   <action id="Images.Thumbnails.EnterAction" />
   <action id="Jdbc.OpenTableEditor">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
