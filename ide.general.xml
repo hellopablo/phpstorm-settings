@@ -12,5 +12,6 @@
     <entry key="search.everywhere.toolwindows" value="false" />
     <entry key="search.everywhere.symbols" value="false" />
     <entry key="search.everywhere.configurations" value="false" />
+    <entry key="terminal.buffer.max.lines.count" value="10000" />
   </component>
 </application>
