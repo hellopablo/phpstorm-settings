@@ -7,13 +7,8 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.php" />
+    <option name="FILE_MASK" value="*.less" />
     <recentFileMasks>
-      <mask>*.php co</mask>
-      <mask>*.php c</mask>
-      <mask>*.ph</mask>
-      <mask>.php</mask>
-      <mask>e.php</mask>
       <mask>ed.php</mask>
       <mask>edi.php</mask>
       <mask>editor..php</mask>
@@ -35,10 +30,15 @@
       <mask>*.scss</mask>
       <mask>*</mask>
       <mask>*.hp</mask>
-      <mask>*.</mask>
       <mask>*.p</mask>
       <mask>*.php</mask>
       <mask>*.php</mask>
+      <mask>*.k</mask>
+      <mask>*.</mask>
+      <mask>*.l</mask>
+      <mask>*.le</mask>
+      <mask>*.les</mask>
+      <mask>*.less</mask>
     </recentFileMasks>
   </component>
 </application>
