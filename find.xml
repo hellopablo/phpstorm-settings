@@ -1,13 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="showResultsInSeparateView" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.scss" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>d</mask>
       <mask>dro</mask>
@@ -32,13 +30,13 @@
       <mask>*.ph</mask>
       <mask>*.p</mask>
       <mask>*.sc</mask>
-      <mask>*</mask>
-      <mask>*.php</mask>
-      <mask>*.php</mask>
-      <mask>*.</mask>
       <mask>*.s</mask>
       <mask>*.scs</mask>
       <mask>*.scss</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.php</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
