@@ -5,6 +5,7 @@
       <mapping pattern=".esconfig.environment" type="PLAIN_TEXT" />
       <mapping pattern="0cfcb24ca19f29ac7d46d8f195095dec098517f1" type="PLAIN_TEXT" />
       <mapping pattern="kibana/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="mailhog/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".MAINTENANCE" type="PLAIN_TEXT" />
       <mapping pattern="098623f25b08a23d16ca3f38639c063fe537fc8c" type="PLAIN_TEXT" />
