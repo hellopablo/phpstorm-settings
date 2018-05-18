@@ -1,6 +1,7 @@
 <profile version="1.0">
   <option name="myName" value="Default" />
   <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="CODING_STANDARD" value="Shed" />
+    <option name="CODING_STANDARD" value="Custom" />
+    <option name="CUSTOM_RULESET_PATH" value="/usr/local/etc/php-code-sniffer/Standards/Shed" />
   </inspection_tool>
 </profile>
