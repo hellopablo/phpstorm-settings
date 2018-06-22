@@ -4,10 +4,10 @@
     <extensionMap>
       <mapping pattern=".esconfig.environment" type="PLAIN_TEXT" />
       <mapping pattern="0cfcb24ca19f29ac7d46d8f195095dec098517f1" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="kibana/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="project" type="PLAIN_TEXT" />
       <mapping pattern="CategoryVolunteerphp" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
@@ -17,6 +17,7 @@
       <mapping pattern="email/views/shortlist.php" type="PLAIN_TEXT" />
       <mapping pattern="359d7b1a78368d346898fcf5238bea26f6982e76" type="PLAIN_TEXT" />
       <mapping pattern=".metadata_never_index" type="PLAIN_TEXT" />
+      <mapping pattern="DirectSignUpphp" type="PLAIN_TEXT" />
       <mapping pattern=".MAINTENANCE" type="PLAIN_TEXT" />
       <mapping pattern="" type="PLAIN_TEXT" />
       <mapping ext="default" type="PLAIN_TEXT" />
