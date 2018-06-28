@@ -4,10 +4,11 @@
     <extensionMap>
       <mapping pattern=".esconfig.environment" type="PLAIN_TEXT" />
       <mapping pattern="0cfcb24ca19f29ac7d46d8f195095dec098517f1" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="kibana/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="contribution/submitted" type="PLAIN_TEXT" />
       <mapping pattern="project" type="PLAIN_TEXT" />
       <mapping pattern="CategoryVolunteerphp" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
