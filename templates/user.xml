@@ -118,7 +118,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="$oApiResponse" value="$oApiResponse = Factory::service('ApiResponse', 'nailsapp/module-api');" description="" toReformat="false" toShortenFQNames="true">
+  <template name="$oApiResponse" value="$oApiResponse = Factory::factory('ApiResponse', 'nailsapp/module-api');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Class Member" value="false" />
